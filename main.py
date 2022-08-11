@@ -1,7 +1,7 @@
-import utils
+from utils import *
 
 
 path="image/000000.png"
 
-image=utils.read_image(path)
-print(image)
+image=read_image_to_np(path)
+plot_image(image)
